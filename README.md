@@ -9,7 +9,7 @@ This repository contains my own solutions of the resolved problems.
 
 ## How to clone this repository
 
-This project contains submodules, so after cloning it (`git clone git@github.com:wachino/codefights.git`), if you want to get all the content of the submodules, run the `main` script (before that, you may have to give the script permission to execute):
+This project contains submodules, so after cloning it (`git clone git@github.com:wachino/codefights.git`), if you want to get all the content of the submodules, run the `main` script:
 
 ```
 ./main.sh
