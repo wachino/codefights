@@ -1,0 +1,3 @@
+[submodule "codefights-arcade"]
+	path = codefights-arcade
+	url = git@github.com:wachino/codefights-arcade.git
