@@ -3,7 +3,7 @@
 # [Codefights](https://codefights.com/profile/wachino)
 Codefights is, among other things, a platform where you can practice, learn and improve your programming skills (either by programming with different languages, by learning/practicing different mathematical algorithms...).
 
-This repository contains my own solutions of the resolved problems.
+This repository contains my own solutions of the Codefights problems.
 
 > You can take a look at my [Codefights user profile](https://codefights.com/profile/wachino) to see what problems have I solved.
 
