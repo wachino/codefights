@@ -1,0 +1,73 @@
+<aside>
+	<div class="container">
+		<!-- <nav>
+			<ul>
+				<li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+				{% for page in site.pages %} {% if page.title %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
+			</ul>
+		</nav> -->
+		<nav>
+			<ul>
+			<li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+			{% assign links = site.data.navigation %}
+			{% for link in links %}
+			{% assign class = nil %}
+				{% if page.url contains link.url %}
+					{% assign class = 'active' %}
+				{% endif %}
+				{% if link.sublinks %}
+					<li class="dropdown">
+						<a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+							<div class="dropdown-content">
+								{% for sublink in link.sublinks %}
+								{% if sublink.title == 'separator' %}
+									<li role="separator" class="divider"></li>
+								{% else %}
+									<a href="{{ site.baseurl }}{{ sublink.url }}" class="dropdown-toggle" data-toggle="dropdown-subcontent" role="button" aria-haspopup="true" aria-expanded="false">{{ sublink.title }} <span class="caret"></span></a>
+									<div class="dropdown-content dropdown-subcontent" >
+										{% for subsublink in sublink.sublinks %}
+											<a href="{{ site.baseurl }}{{ subsublink.url }}">{{ subsublink.title }} <span class="caret"></span></a>
+										{% endfor %}
+									</div>
+								{% endif %}
+								{% endfor %}
+							</div>
+						</ul>
+					</li>
+				{% else %}
+					<li class="{{ class }}">
+						<a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+			</ul>
+		</nav>
+	</div>
+</aside>
+
+<header>
+	<section class="page-header">
+		<h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+		<h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+		{% if site.github.is_project_page %}
+			<a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+		{% endif %}
+		{% if site.show_downloads %}
+			<a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+			<a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+		{% endif %}
+	</section>
+</header>
+
+<script>
+	$(document).ready(function(){
+		$('.dropdown a.dropdown-toggle').on("click", function(e){
+		$(this).next('div').toggle();
+		e.stopPropagation();
+		e.preventDefault();
+		});
+	});
+</script>
+ 
