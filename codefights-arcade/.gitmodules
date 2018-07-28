@@ -1,0 +1,15 @@
+[submodule "codefights-arcade-intro"]
+	path = codefights-arcade-intro
+	url = git@github.com:wachino/codefights-arcade-intro.git
+[submodule "codefights-arcade-databases"]
+	path = codefights-arcade-databases
+	url = git@github.com:wachino/codefights-arcade-databases.git
+[submodule "codefights-arcade-thecore"]
+	path = codefights-arcade-thecore
+	url = git@github.com:wachino/codefights-arcade-thecore.git
+[submodule "codefights-arcade-python"]
+	path = codefights-arcade-python
+	url = git@github.com:wachino/codefights-arcade-python.git
+[submodule "codefights-arcade-graphs"]
+	path = codefights-arcade-graphs
+	url = git@github.com:wachino/codefights-arcade-graphs.git
