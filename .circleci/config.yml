@@ -10,6 +10,9 @@ jobs:
     steps:
       - checkout
 
+      - run: Submodules update
+        command: git submodule update --init --recursive
+
       - run:
           name: Deploy Github Pages
           command: ./scripts/deploy-ghpages.sh .
