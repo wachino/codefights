@@ -30,7 +30,9 @@ else
 fi
 
 # copy over or recompile the new site
-cp -a "../${distFolder}/." .
+shopt -s extglob dotglob
+cp -a "../${distFolder}/.!(gh-pages-branch) ."
+shopt -u dotglob
 
 # stage any changes and new files
 git add -A
