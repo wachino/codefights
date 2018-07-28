@@ -1,7 +1,3 @@
----
-layout: home
-permalink: index.html # in case of we remove the index.md file, this doc will be the index page
----
 ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
 
 
