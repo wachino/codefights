@@ -2,6 +2,8 @@ version: 2
 jobs:
 
   deploy-gh-pages:
+    machine:
+        enabled: true
 
     working_directory: ~/codefights
 
