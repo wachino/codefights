@@ -1,0 +1,61 @@
+$content-width: 1500px;
+$main: rgb(113, 160, 214);
+$font-style: 'Roboto', sans-serif;
+$font-color: rgb(7, 27, 82);
+$link-color: #81b0ee;
+$link-hover-color: $main;
+$heading-font: 'Roboto', sans-serif;
+$heading-font-color: #8e61c9;
+$light: rgb(67, 99, 136);
+$header:  rgb(7, 20, 53);
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/** Rendering code blocks **/
+code {
+    font-size: 15px;
+    // border: 1px solid #727272;
+    border-radius: 3px;
+    background-color: #ebebeb;
+}
+
+.highlight {
+    margin: 0;
+}
+
+.highlight table, .highlight table td {
+    border: 0px;
+    text-align: left;
+}
+
+.katex {
+    font: 1.21em monospace !important;
+}
+
+.katex .mathit {
+    font-family: monospace;
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #000000;
+}
+
+th {
+    border:1px solid #000000;
+    padding: 5px !important;
+}
+
+td {
+    border:1px solid #000000;
+    text-align: center;
+    padding: 5px !important;
+}

@@ -1,0 +1,18 @@
+- title: About
+  url: /about/index.html
+- title: Contact
+  url: /contact/index.html
+- title: Categories
+  sublinks:
+    - title: Arcade
+      sublinks:
+        - title: Intro
+          url: /codefights-arcade/codefights-arcade-intro/README.html
+        - title: Databases
+          url: /codefights-arcade/codefights-arcade-databases/README.html
+        - title: The Core
+          url: /codefights-arcade/codefights-arcade-thecore/README.html
+        - title: Python
+          url: /codefights-arcade/codefights-arcade-python/README.html
+        - title: Graphs
+          url: /codefights-arcade/codefights-arcade-graphs/README.html
