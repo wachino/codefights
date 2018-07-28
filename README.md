@@ -1,4 +1,9 @@
+---
+layout: home
+permalink: index.html # in case of we remove the index.md file, this doc will be the index page
+---
 ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
+
 
 # [Codefights](https://codefights.com/profile/wachino)
 Codefights is, among other things, a platform where you can practice, learn and improve your programming skills (either by programming with different languages, by learning/practicing different mathematical algorithms...).
@@ -30,3 +35,11 @@ git pull origin master
 
 ## About my Codefights profile
 You can see that most of the problems are written in `JavaScript` (except in the problems where we can not choose the programming language).
+
+## TODO
+
+[ ] Add favicon.ico to the project.
+
+[ ] Complete the problems code of all sections (previously they must be created as submodules and have a README file).
+
+[ ] Complete the README for each submodule (category) and its problems.

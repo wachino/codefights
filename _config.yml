@@ -18,9 +18,8 @@ email: juanandc@ucm.es
 description: >- # this means to ignore newlines until "baseurl:"
   A way to improve your programming skills.
 
-baseurl: "" # the subpath of your site
-url: "http://localhost:4000"
-#url: "https://wachino.github.io/codefights" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wachino.github.io/codefights"
+baseurl: ""
 github_username:  wachino
 
 navbar-links:

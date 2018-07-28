@@ -1,0 +1,11 @@
+# jekyll
+_site
+.sass-cache
+.jekyll-metadata
+
+# ruby gems
+vendor
+.bundle
+
+# git history
+.history
