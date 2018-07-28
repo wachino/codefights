@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A way to improve your programming skills.
 
 url: "http://wachino.github.io/codefights"
-baseurl: ""
+baseurl: "/codefights"
 github_username:  wachino
 
 navbar-links:
