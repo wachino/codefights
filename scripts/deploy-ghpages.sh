@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # abort the script if there is a non-zero error
 set -e
@@ -6,7 +6,6 @@ set -e
 # show where we are on the machine
 pwd
 remote=$(git config remote.origin.url)
-distFolder=$1
 
 # make a directory to put the gp-pages branch
 mkdir gh-pages-branch
@@ -30,9 +29,7 @@ else
 fi
 
 # copy over or recompile the new site
-shopt -s extglob dotglob
-cp -a "../${distFolder}/.!(gh-pages-branch) ."
-shopt -u dotglob
+cat ../.jekyll_files | while read line; do cp -a ../"$line" .; done
 
 # stage any changes and new files
 git add -A
