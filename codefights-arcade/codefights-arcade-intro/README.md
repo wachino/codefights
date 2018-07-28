@@ -1,5 +1,10 @@
-![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
+---
+layout: home
+title: Arcade Intro
+#permalink: index.html # in case of we remove the index.md file, this doc will be the index page
+---
 
-# Codefights Arcade Intro
-
-> _Note: This project is a git submodule of [Codefights Arcade](https://github.com/wachino/codefights-arcade) repository_.
+## The Journey Begins
+1. [Add](1_add/README.html)
+1. [Century from year](2_centuryFromYear/README.html)
+1. [Check palindrome](3_checkPalindrome/README.html)
