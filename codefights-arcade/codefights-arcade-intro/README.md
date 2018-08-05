@@ -8,3 +8,12 @@ title: Arcade Intro
 1. [Add](1_add/README.html)
 1. [Century from year](2_centuryFromYear/README.html)
 1. [Check palindrome](3_checkPalindrome/README.html)
+
+## Edge of the Ocean
+
+{:start="4"}
+1. [Adjacent elements product](4_adjacentElementsProduct/README.html)
+1. [Shape area](5_shapeArea/README.html)
+1. [Make Array Consecutive 2](6_makeArrayConsecutive2/README.html)
+1. [Almost Increasing Sequence](7_almostIncreasingSequence/README.html)
+1. [Matrix Elements Sum](8_matrixElementsSum/README.html)

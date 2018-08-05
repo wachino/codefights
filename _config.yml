@@ -39,7 +39,6 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-markdown: redcarpet
 theme: minima
 plugins:
   - jekyll-feed
