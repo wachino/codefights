@@ -17,3 +17,12 @@ title: Arcade Intro
 1. [Make Array Consecutive 2](6_makeArrayConsecutive2/README.html)
 1. [Almost Increasing Sequence](7_almostIncreasingSequence/README.html)
 1. [Matrix Elements Sum](8_matrixElementsSum/README.html)
+
+## Smooth Sailing
+
+{:start="9"}
+1. [All Longest Strings](9_allLongestStrings/README.html)
+1. [Common Character Count](10_commonCharacterCount/README.html)
+1. [Is Lucky](11_isLucky/README.html)
+1. [Sort By Height](12_sortByHeight/README.html)
+1. [Reverse Parentheses](13_reverseParentheses/README.html)
