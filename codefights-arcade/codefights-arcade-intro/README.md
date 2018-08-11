@@ -26,3 +26,12 @@ title: Arcade Intro
 1. [Is Lucky](11_isLucky/README.html)
 1. [Sort By Height](12_sortByHeight/README.html)
 1. [Reverse Parentheses](13_reverseParentheses/README.html)
+
+## Exploring the Waters
+
+{:start="14"}
+1. [Alternating Sums](14_alternatingSums/README.html)
+1. [Add Border](15_addBorder/README.html)
+1. [Are Similar](16_areSimilar/README.html)
+1. [Array Change](17_arrayChange/README.html)
+1. [Palindrome Rearranging](18_palindromeRearranging/README.html)
