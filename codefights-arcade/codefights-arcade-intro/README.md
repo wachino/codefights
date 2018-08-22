@@ -35,3 +35,14 @@ title: Arcade Intro
 1. [Are Similar](16_areSimilar/README.html)
 1. [Array Change](17_arrayChange/README.html)
 1. [Palindrome Rearranging](18_palindromeRearranging/README.html)
+
+
+## Island of Knowledge
+
+{:start="19"}
+1. [Are Equally Strong](19_areEquallyStrong/README.html)
+1. [Array Maximal Adjacent Difference](20_arrayMaximalAdjacentDifference/README.html)
+1. [Is IPv4 Address](21_isIPv4Address/README.html)
+1. [Avoid Obstacles](22_avoidObstacles/README.html)
+1. [Box Blur](23_boxBlur/README.html)
+1. [Minesweeper](24_minesweeper/README.html)
