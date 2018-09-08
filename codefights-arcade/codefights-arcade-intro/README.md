@@ -46,3 +46,12 @@ title: Arcade Intro
 1. [Avoid Obstacles](22_avoidObstacles/README.html)
 1. [Box Blur](23_boxBlur/README.html)
 1. [Minesweeper](24_minesweeper/README.html)
+
+## Rains of Reason
+
+{:start="25"}
+1. [Array Replace](25_arrayReplace/README.html)
+1. [Even Digits Only](26_evenDigitsOnly/README.html)
+1. [Variable Name](27_variableName/README.html)
+1. [Alphabetic Shift](28_alphabeticShift/README.html)
+1. [Chess Board Cell Color](29_chessBoardCellColor/README.html)
