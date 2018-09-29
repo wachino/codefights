@@ -69,3 +69,12 @@ title: Arcade Intro
 1. [Deposit Profit](31_depositProfit/README.html)
 1. [Absolute Values Sum Minimization](32_absoluteValuesSumMinimization/README.html)
 1. [Strings Rearrangement](33_stringsRearrangement/README.html)
+
+## Diving Deeper
+
+{:start="34"}
+
+1. [Extract Each Kth](34_extractEachKth/README.html)
+1. [First Digit](35_firstDigit/README.html)
+1. [Different Symbols Naive](36_differentSymbolsNaive/README.html)
+1. [Array Max Consecutive Sum](37_arrayMaxConsecutiveSum/README.html)
