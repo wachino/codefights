@@ -78,3 +78,13 @@ title: Arcade Intro
 1. [First Digit](35_firstDigit/README.html)
 1. [Different Symbols Naive](36_differentSymbolsNaive/README.html)
 1. [Array Max Consecutive Sum](37_arrayMaxConsecutiveSum/README.html)
+
+## Dark Wilderness
+
+{:start="38"}
+
+1. [Growing Plant](38_growingPlant/README.html)
+1. [Knapsack Light](39_knapsackLight/README.html)
+1. [Longest Digits Prefix](40_longestDigitsPrefix/README.html)
+1. [Digit Degree](41_digitDegree/README.html)
+1. [Bishop Degree](42_bishopAndPawn/README.html)
