@@ -88,3 +88,13 @@ title: Arcade Intro
 1. [Longest Digits Prefix](40_longestDigitsPrefix/README.html)
 1. [Digit Degree](41_digitDegree/README.html)
 1. [Bishop Degree](42_bishopAndPawn/README.html)
+
+## Eruption of Light
+
+{:start="43"}
+
+1. [Is Beautiful String](43_isBeautifulString/README.html)
+1. [Find Email Domain](44_findEmailDomain/README.html)
+1. [Build Palindrome](45_buildPalindrome/README.html)
+1. [Elections Winners](46_electionsWinners/README.html)
+1. [Is Mac 48 Address](47_isMac48Address/README.html)
