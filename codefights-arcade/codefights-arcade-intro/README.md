@@ -98,3 +98,12 @@ title: Arcade Intro
 1. [Build Palindrome](45_buildPalindrome/README.html)
 1. [Elections Winners](46_electionsWinners/README.html)
 1. [Is Mac 48 Address](47_isMac48Address/README.html)
+
+## Rainbow of Clarity
+
+{:start="48"}
+
+1. [Is Digit](48_isDigit/README.html)
+1. [Line Encoding](49_lineEncoding/README.html)
+1. [Chess Knight](50_chessKnight/README.html)
+1. [Delete Digit](51_deleteDigit/README.html)
