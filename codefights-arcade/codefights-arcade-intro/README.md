@@ -107,3 +107,17 @@ title: Arcade Intro
 1. [Line Encoding](49_lineEncoding/README.html)
 1. [Chess Knight](50_chessKnight/README.html)
 1. [Delete Digit](51_deleteDigit/README.html)
+
+## Land of Logic
+
+{:start="52"}
+
+1. [Longest Word](52_longestWord/README.html)
+1. [Valid Time](53_validTime/README.html)
+1. [Sum Up Numbers](54_sumUpNumbers/README.html)
+1. [Different Squares](55_differentSquares/README.html)
+1. [Digits Product](56_digitsProduct/README.html)
+1. [File Naming](57_fileNaming/README.html)
+1. [Message From Binary Code](58_messageFromBinaryCode/README.html)
+1. [Spiral Numbers](59_spiralNumbers/README.html)
+1. [Sudoku](60_sudoku/README.html)
