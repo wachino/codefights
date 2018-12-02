@@ -21,3 +21,14 @@ title: Arcade Databases
 1. [Contest Leaderboard](8_contestLeaderboard/README.html)
 1. [Grade Distribution](9_gradeDistribution/README.html)
 1. [Mischievous Nephews](10_mischievousNephews/README.html)
+
+## Would you LIKE the Second Meal?
+
+{:start="11"}
+
+1. [Suspects Investigation](11_suspectsInvestigation/README.html)
+1. [Suspects Investigation 2](12_suspectsInvestigation2/README.html)
+1. [Security Breach](13_securityBreach/README.html)
+1. [Test Check](14_testCheck/README.html)
+1. [Expressions Verification](15_expressionsVerification/README.html)
+1. [New Subscribers](16_newsSubscribers/README.html)
