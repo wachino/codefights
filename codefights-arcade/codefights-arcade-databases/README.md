@@ -32,3 +32,15 @@ title: Arcade Databases
 1. [Test Check](14_testCheck/README.html)
 1. [Expressions Verification](15_expressionsVerification/README.html)
 1. [New Subscribers](16_newsSubscribers/README.html)
+
+## GROUP Dishes BY Type
+
+{:start="17"}
+
+1. [Countries Info](17_countriesInfo/README.html)
+1. [Item Counts](18_itemCounts/README.html)
+1. [Users By Continent](19_usersByContinent/README.html)
+1. [Movie Directors](20_movieDirectors/README.html)
+1. [Travel Diary](21_travelDiary/README.html)
+1. [Soccer Players](22_soccerPlayers/README.html)
+1. [Market Report](23_marketReport/README.html)
