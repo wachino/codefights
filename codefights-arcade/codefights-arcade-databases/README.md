@@ -44,3 +44,12 @@ title: Arcade Databases
 1. [Travel Diary](21_travelDiary/README.html)
 1. [Soccer Players](22_soccerPlayers/README.html)
 1. [Market Report](23_marketReport/README.html)
+
+## Time for Tricks
+
+{:start="24"}
+
+1. [Website Hacking](24_websiteHacking/README.html)
+1. [Null Intern](25_nullIntern/README.html)
+1. [Legs Count](26_legsCount/README.html)
+1. [Combination Lock](27_combinationLock/README.html)
