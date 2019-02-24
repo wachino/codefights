@@ -53,3 +53,12 @@ title: Arcade Databases
 1. [Null Intern](25_nullIntern/README.html)
 1. [Legs Count](26_legsCount/README.html)
 1. [Combination Lock](27_combinationLock/README.html)
+
+## Specialties
+
+{:start="28"}
+
+1. [Interest Club](28_interestClub/README.html)
+1. [Personal Hobbies](29_personalHobbies/README.html)
+1. [Books Catalogs](30_booksCatalogs/README.html)
+1. [Habitat Area](31_habitatArea/README.html)
