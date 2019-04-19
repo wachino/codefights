@@ -62,3 +62,12 @@ title: Arcade Databases
 1. [Personal Hobbies](29_personalHobbies/README.html)
 1. [Books Catalogs](30_booksCatalogs/README.html)
 1. [Habitat Area](31_habitatArea/README.html)
+
+## WHEN was it the CASE?
+
+{:start="32"}
+
+1. [Order Of Succession](32_orderOfSuccession/README.html)
+1. [Ordering Emails](33_orderingEmails/README.html)
+1. [Places Of Interest](34_placesOfInterest/README.html)
+1. [Soccer Game Series](35_soccerGameSeries/README.html)
