@@ -71,3 +71,10 @@ title: Arcade Databases
 1. [Ordering Emails](33_orderingEmails/README.html)
 1. [Places Of Interest](34_placesOfInterest/README.html)
 1. [Soccer Game Series](35_soccerGameSeries/README.html)
+
+## Regular Paradise
+
+{:start="36"}
+
+1. [Correct IPs](36_correctIPs/README.html)
+1. [Valid Phone Numbers](37_validPhoneNumbers/README.html)
