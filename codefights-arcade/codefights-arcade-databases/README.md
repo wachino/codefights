@@ -99,3 +99,14 @@ title: Arcade Databases
 1. [Places Of Interest Pairs](46_placesOfInterestPairs/README.html)
 1. [Local Calendar](47_localCalendar/README.html)
 1. [Route Length](48_routeLength/README.html)
+
+## Table Metamorphoses
+
+{:start="49"}
+
+1. [Currency Codes](49_currencyCodes/README.html)
+1. [Courses Distribution](50_coursesDistribution/README.html)
+1. [Nicknames](51_nicknames/README.html)
+1. [Table Security](52_tableSecurity/README.html)
+1. [Office Branches](53_officeBranches/README.html)
+1. [Restaurant Info](54_restaurantInfo/README.html)
