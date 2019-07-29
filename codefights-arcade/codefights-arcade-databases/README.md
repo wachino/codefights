@@ -110,3 +110,22 @@ title: Arcade Databases
 1. [Table Security](52_tableSecurity/README.html)
 1. [Office Branches](53_officeBranches/README.html)
 1. [Restaurant Info](54_restaurantInfo/README.html)
+
+## Selecting What to SELECT
+
+{:start="55"}
+
+1. [Students In Club](55_studentsInClubs/README.html)
+1. [Empty Departments](56_emptyDepartments/README.html)
+1. [Sunny Holidays](57_sunnyHolidays/README.html)
+1. [Closest Cells](58_closestCells/README.html)
+1. [Top 5 Average Grade](59_top5AverageGrade/README.html)
+1. [Salary Difference](60_salaryDifference/README.html)
+1. [Recent Hires](61_recentHires/README.html)
+1. [Check Expenditure](62_checkExpenditure/README.html)
+1. [Dancing Competition](63_dancingCompetition/README.html)
+1. [Tracking System](64_trackingSystem/README.html)
+1. [Storage Optimization](65_storageOptimization/README.html)
+1. [Consecutive Ids](66_consecutiveIds/README.html)
+1. [Holiday Event](67_holidayEvent/README.html)
+1. [Hostnames Ordering](68_hostnamesOrdering/README.html)
