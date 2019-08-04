@@ -8,18 +8,18 @@ title: Consecutive Ids
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
 
 You work for an online store in which each item put up for sale gets a unique randomly generated id.
 
 These item ids are stored in the **itemIds** table with only one column:
 
-* **id**: unique id of an item.
+- **id**: unique id of an item.
 
 However, this system proved to be not very convenient to use in a number of queries that required consecutive ids. To solve this problem, you decided to generate new ids for the items using the following algorithm: the item with the smallest <code>id</code> would get <code>1</code> as a new id, the second smallest would get <code>2</code>, and so on.
 
-Given the **itemIds** table, compose the resulting table with two columns: <code>oldId</code> and <code>newId</code>. The first column should contain the old item id, and the second one should contain the new id generated as described above. The table should be sorted by the <code>newId</code> in *ascending* order.
-
+Given the **itemIds** table, compose the resulting table with two columns: <code>oldId</code> and <code>newId</code>. The first column should contain the old item id, and the second one should contain the new id generated as described above. The table should be sorted by the <code>newId</code> in _ascending_ order.
 
 **Example**
 
@@ -53,14 +53,14 @@ the output should be
 | 67867 | 9     |
 | 84523 | 10    |
 
-
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

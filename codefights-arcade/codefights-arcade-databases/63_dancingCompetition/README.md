@@ -8,7 +8,8 @@ title: Dancing Competition
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
 
 During the dance contest, each judge evaluates the dancers' performances based on three criteria, using a score from <code>1</code> to <code>10</code> for each of the criteria. You are given a table of the <code>scores</code> awarded to a specific dancer by each judge. Recently, the dance contest made the decision to drop scores awarded by a certain judge if that judge gave an extreme (either minimum or maximum) score for at least two criteria.
 
@@ -18,11 +19,10 @@ Return a table that consists of only the scores that should be considered after 
 
 The **scores** table contain the following columns:
 
-* **arbiter_id** - the unique ID of the judge;
-* **first_criterion** - the score given for the first criterion;
-* **second_criterion** - the score given for the second criterion;
-* **third_criterion** - the score given for the third criterion.
-
+- **arbiter_id** - the unique ID of the judge;
+- **first_criterion** - the score given for the first criterion;
+- **second_criterion** - the score given for the second criterion;
+- **third_criterion** - the score given for the third criterion.
 
 **Example**
 
@@ -36,7 +36,6 @@ For the following tables **scores**
 | 4          | 2               | 5                | 9               |
 | 5          | 2               | 2                | 2               |
 
-
 the output should be
 
 | arbiter_id | first_criterion | second_criterion | third_criterion |
@@ -45,16 +44,16 @@ the output should be
 | 3          | 5               | 6                | 7               |
 | 4          | 2               | 5                | 9               |
 
-
 The first judge gave the maximal scores for the second and third criteria, so his scores aren't included in the answer. The fifth judge's given scores are all minimal, so her scores aren't included to the answer either.
 
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

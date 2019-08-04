@@ -8,13 +8,15 @@ title: Habitat Area
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
+
 As a young naturalist, you've been studying the inhabitants of the nearby woods for the past several months. You've just come across some footprints you've never seen before. To learn more about the habitat of the animal that left them, you marked the footprints locations on your map.
 
 The information about the places where the animal left its footprints is stored in the table **places**. Here is its structure:
 
-* **x**: The <code>x</code>-coordinate of the place;
-* **y**: The <code>y</code>-coordinate of the place.
+- **x**: The <code>x</code>-coordinate of the place;
+- **y**: The <code>y</code>-coordinate of the place.
 
 It is guaranteed that pairs <code>(x, y)</code> are unique.
 
@@ -26,19 +28,19 @@ Given the **places** table, return a table that has only one column <code>area</
 
 For the following table **places**
 
-| x | y |
-| -- | -- |
-|0	|0|
-|1	|2|
-|2	|1|
-|5	|1|
-|5	|2|
+| x   | y   |
+| --- | --- |
+| 0   | 0   |
+| 1   | 2   |
+| 2   | 1   |
+| 5   | 1   |
+| 5   | 2   |
 
 the output should be
 
 | area |
-| -- |
-| 6.5	|
+| ---- |
+| 6.5  |
 
 Here is an illustration of the given points and their convex hull:
 
@@ -46,13 +48,14 @@ Here is an illustration of the given points and their convex hull:
 
 Note that you should return the exact answer without any trailing zeros.
 
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

@@ -8,21 +8,21 @@ title: Scholarships Distribution
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
 
 In the past, straight "A" students have gotten scholarships to reward them for their excellent grades. This year, though, there has been an increase in the number of detentions given to excellent students, so the administration is going to change the rules. In order to encourage the levels of misbehavior to go down, only well-behaved students will be awarded with scholarships this year.
 
 Information about the straight "A" students is stored in the table **candidates**, and information about all the **detentions** is stored in the table detentions. Here are their structures:
 
-* **candidates**
-    * **candidate_id**: the unique candidate ID;
-    * **candidate_name**: the name of the candidate;
-* **detentions**
-    * **detention_date**: the date of the detention (of the <code>date</code> type);
-    * **student_id**: the id of the student who got the detention.
+- **candidates**
+  - **candidate_id**: the unique candidate ID;
+  - **candidate_name**: the name of the candidate;
+- **detentions**
+  - **detention_date**: the date of the detention (of the <code>date</code> type);
+  - **student_id**: the id of the student who got the detention.
 
 Your task is to figure out which students should get the scholarships this year. Given the **candidates** and **detentions** tables, return a table with a single <code>student_id</code> column containing the IDs of the students who should get scholarships - students from the **candidates** table who've never gotten a detention. The IDs of the students in the resulting table should be sorted in ascending order.
-
 
 **Example**
 
@@ -51,22 +51,23 @@ and **deletions**:
 
 the output should be
 
-|student_id|
-| --- |
-|35|
-|103|
+| student_id |
+| ---------- |
+| 35         |
+| 103        |
 
 Only Gerbern Abbey and Nita Simons never got detention, so they will get the scholarships this year.
 
 The dates in the example are given in the <code>YYYY-MM-DD</code> format.
 
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

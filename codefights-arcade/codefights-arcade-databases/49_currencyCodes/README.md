@@ -8,23 +8,23 @@ title: Currency Codes
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
 
-You are developing an application for working with different currencies. You've decided to represent each currency using *three* letter codes from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217).
+---
+
+You are developing an application for working with different currencies. You've decided to represent each currency using _three_ letter codes from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217).
 
 You've parsed some data that you found on the Internet and stored it in a **currencies** table, which has the following structure:
 
-* **code**: the unique code of the currency;
-* **country**: the name of the country in which this currency is used.
+- **code**: the unique code of the currency;
+- **country**: the name of the country in which this currency is used.
 
 Unfortunately, your parser didn't check the length of the codes and some erroneous data got into the table by mistake.
 
-Your task is to delete all rows from the **currencies** table in which <code>code</code> is not exactly *three* letters long.
+Your task is to delete all rows from the **currencies** table in which <code>code</code> is not exactly _three_ letters long.
 
 **Example**
 
 For the following table **currencies**
-
 
 | code | country   |
 | ---- | --------- |
@@ -37,7 +37,6 @@ For the following table **currencies**
 | SEKR | Sweden    |
 | USD  | USA       |
 
-
 should become
 
 | code | country   |
@@ -49,13 +48,14 @@ should become
 | RUR  | Russia    |
 | USD  | USA       |
 
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

@@ -8,21 +8,21 @@ title: User Countries
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
 
 You are really interested in statistics, and your new project is to gather some information about the users of a big social network. More specifically, you want to know which countries these users are from. Using the social network's API, you managed to collect enough data to compose two tables **users** and **cities**, which have the following structures:
 
-* **users**:
-    * **id**: the unique user ID;
-    * **city**: the name of the city where this user lives;
-* **cities**:
-    * **city**: a unique city name;
-    * **country**: the name of the country where this city is located.
+- **users**:
+  - **id**: the unique user ID;
+  - **city**: the name of the city where this user lives;
+- **cities**:
+  - **city**: a unique city name;
+  - **country**: the name of the country where this city is located.
 
 Given the tables **users** and **cities**, build the resulting table so that it consists of the columns <code>id</code> and <code>country</code>. The table should consist of user <code>id</code>s, and for each user the country where they live should be given in the <code>country</code> column. If a user's city is missing from the **cities** table, the <code>country</code> column should contain <code>"unknown"</code> instead.
 
 Return the table sorted by users' <code>id</code>s.
-
 
 **Example**
 
@@ -61,13 +61,14 @@ the output should be
 | 6   | Russia  |
 | 7   | unknown |
 
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

@@ -8,22 +8,22 @@ title: Students In Club
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
 
 At the beginning of this academic year you composed a list of clubs and a list of their members. The gathered information is stored in your local database in two tables that have the following structures:
 
-* **clubs**
-  * **id**: unique club id;
-  * **name**: club name;
-* **students**
-  * **id**: unique student id;
-  * **name**: student name;
-  * **club_id**: id of the club the student joined.
+- **clubs**
+  - **id**: unique club id;
+  - **name**: club name;
+- **students**
+  - **id**: unique student id;
+  - **name**: student name;
+  - **club_id**: id of the club the student joined.
 
 Each student can be a member only of a single club, and it is prohibited to drop a club until the year is over. However, several clubs were closed due to low attendance, and you need to update your database to reflect that. You have already updated the **clubs** table, and now the **students** table should be updated as well.
 
 Given the **clubs** and **students** tables, return a table containing the records from **students** that have <code>club_id</code> equal to some <code>id</code> of **clubs**. The table should be sorted by students' <code>id</code>s.
-
 
 **Example**
 
@@ -52,13 +52,14 @@ the output should be
 | 14  | Obiten Kenobi | 87      |
 | 36  | Closece       | 87      |
 
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

@@ -129,3 +129,11 @@ title: Arcade Databases
 1. [Consecutive Ids](66_consecutiveIds/README.html)
 1. [Holiday Event](67_holidayEvent/README.html)
 1. [Hostnames Ordering](68_hostnamesOrdering/README.html)
+
+## Express your CREATivity
+
+{:start="69"}
+
+1. [Order Analytics](69_orderAnalytics/README.html)
+1. [Customer Messages](70_customerMessages/README.html)
+1. [Order Prices](71_orderPrices/README.html)

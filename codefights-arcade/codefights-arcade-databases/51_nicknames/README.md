@@ -8,7 +8,8 @@ title: Nicknames
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
 
 You've just opened a registration for the online game you are about to finish developing.
 
@@ -16,8 +17,8 @@ Everyone who wanted to reserve their nicknames for the release of the game had t
 
 The reserved nicknames were stored in the **reservedNicknames** table with the following structure:
 
-* **id**: the unique id of the registered user;
-* **nickname**: the nickname submitted by the user with id <code>id</code>.
+- **id**: the unique id of the registered user;
+- **nickname**: the nickname submitted by the user with id <code>id</code>.
 
 When you started going through these nicknames you realized that you forgot one important thing: all nicknames should contain exactly <code>8</code> characters.
 You have no time to fix this issue properly right now, so you decided to just add <code>rename -</code> to the invalid <code>nicknames</code> with corresponding <code>id</code>s so it would be easier for you to deal with them latter.
@@ -27,7 +28,6 @@ Given the **reservedNicknames** table, change all rows with invalid nicknames by
 **Example**
 
 For the following table **reservedNicknames**
-
 
 | id      | nickname  |
 | ------- | --------- |
@@ -49,13 +49,14 @@ should become
 | rename - id616   | rename - Zoneg     |
 | rename - id9999  | rename - butch     |
 
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

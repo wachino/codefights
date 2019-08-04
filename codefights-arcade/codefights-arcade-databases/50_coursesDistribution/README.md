@@ -8,33 +8,33 @@ title: Courses Distribution
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
 
 You work with a professor of applied mathematics and informatics to create and distribute this year's plan of courses for students.
 You were almost finished when you noticed that a couple of fixes yet need to be done. There are courses which names' are marked as <code>'-toremove'</code>, so you decided to remove them permanently. Prior to removing them, you'd like to make sure that deleting a course would also remove it from all the related tables automatically.
 
 All courses are stored in **courses** table that has the following structure:
 
-* **id**: unique id of the course;
-* **name**: unique name of the course that may end with <code>'-toremove'</code>, which means that the course is about to be removed;
-* **description**: description of the course.
+- **id**: unique id of the course;
+- **name**: unique name of the course that may end with <code>'-toremove'</code>, which means that the course is about to be removed;
+- **description**: description of the course.
 
 There are also **groupcourses** and **groupexams** tables which represent courses assigned to groups and examination dates of courses for each group, respectively. Here are their structures:
 
-* **groupcourses**:
-  * <code>group_id</code>: group id;
-  * <code>course_id</code>: course id;
-* **groupexams**:
-  * <code>date</code>: the date of the exam;
-  * <code>group_id</code>: id of the group taking the exam;
-  * <code>course_id</code>: id of the course.
+- **groupcourses**:
+  - <code>group_id</code>: group id;
+  - <code>course_id</code>: course id;
+- **groupexams**:
+  - <code>date</code>: the date of the exam;
+  - <code>group_id</code>: id of the group taking the exam;
+  - <code>course_id</code>: id of the course.
 
 Given **courses**, **groupcourses** and **groupexams** tables you need to properly set up foreign keys, so that after a record is deleted from the **courses** table, records that correspond to the deleted course are also deleted from **groupcourses** and **groupexams**. Please note that <code>groupexams</code> can only contain pairs from <code>groupcourses</code> and there can be multiple exam dates for the same <code>group_id</code>, <code>course_id</code> combination. It is guaranteed that adding correct foreign keys won't raise any errors.
 
 **Example**
 
 For the following table **courses**
-
 
 | id  | name                      | description                               |
 | --- | ------------------------- | ----------------------------------------- |
@@ -70,13 +70,14 @@ the final result should be
 | 1        | 3         |
 | 2        | 1         |
 
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

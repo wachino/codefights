@@ -8,20 +8,21 @@ title: Local Calendar
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
 
 You are developing a calendar application that will allow users to schedule various events on different dates. The dates are all stored in the server local time as a <code>DATETIME</code>. You want to display the dates using the settings specified by the user.
 
 Event dates and user settings are stored in the **events** and **settings** tables, which have the following structures:
 
-* **events**:
-    * **event_id**: the unique event ID;
-    * **date**: the time and date of the event;
-    * **user_id**: the ID of the user who scheduled this event.
-* **settings**
-    * **user_id**: the unique ID of the user with these settings;
-    * **timeshift**: the number of minutes the user's time differs from the server (this could potentially be negative or zero);
-    * **hours**: the number of hours in the user's clock (either <code>12</code> or <code>24</code>).
+- **events**:
+  - **event_id**: the unique event ID;
+  - **date**: the time and date of the event;
+  - **user_id**: the ID of the user who scheduled this event.
+- **settings**
+  - **user_id**: the unique ID of the user with these settings;
+  - **timeshift**: the number of minutes the user's time differs from the server (this could potentially be negative or zero);
+  - **hours**: the number of hours in the user's clock (either <code>12</code> or <code>24</code>).
 
 The displayed dates should have the format <code>yyyy-mm-dd hh:mm</code> if the user's clock has 24 hours. Otherwise, the format should be <code>yyyy-mm-dd hh:mm <p></code>, where <code><p></code> is either <code>AM</code> or <code>PM</code> depending on the time.
 
@@ -46,7 +47,6 @@ and **settings**
 | 4242    | 0         | 24    |
 | 4987    | 60        | 12    |
 
-
 the output should be
 
 | event_id | formatted_date      |
@@ -56,14 +56,14 @@ the output should be
 | 3        | 2016-01-01 11:19    |
 | 4        | 2011-11-11 02:37 PM |
 
-
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

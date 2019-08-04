@@ -8,26 +8,27 @@ title: Recent Hires
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
 
 Your company has many different departments. Information about the employees working in these departments is stored in the **pr_department**, **it_department**, and **sales_department** tables, which have the following structures:
 
-* **pr_department**:
-  * id: the unique (for this department) employee ID;
-  * name: the name of the employee;
-  * date_joined: the date this employee was hired by your company.
-* **it_department**:
-  * id: the unique (for this department) employee ID;
-  * name: the name of the employee;
-  * date_joined: the date this employee was hired by your company.
-* **sales_department**:
-  * id: the unique (for this department) employee ID;
-  * name: the name of the employee;
-  * date_joined: the date this employee was hired by your company.
+- **pr_department**:
+  - id: the unique (for this department) employee ID;
+  - name: the name of the employee;
+  - date_joined: the date this employee was hired by your company.
+- **it_department**:
+  - id: the unique (for this department) employee ID;
+  - name: the name of the employee;
+  - date_joined: the date this employee was hired by your company.
+- **sales_department**:
+  - id: the unique (for this department) employee ID;
+  - name: the name of the employee;
+  - date_joined: the date this employee was hired by your company.
 
 Your task is to prepare a report that has the names of all the employees who were hired recently.
 
-Given the **pr_department**, **it_department**, and **sales_department** tables, compose the result as follows: The resulting table should have one column <code>names</code> that contains the names of the last *five* people to join *each* department. The names of the employees from the **pr_department** should come first, followed by the **it_department**, and the **sales_department** will come last. The names of employees who work in the same department should be sorted in ascending order.
+Given the **pr_department**, **it_department**, and **sales_department** tables, compose the result as follows: The resulting table should have one column <code>names</code> that contains the names of the last _five_ people to join _each_ department. The names of the employees from the **pr_department** should come first, followed by the **it_department**, and the **sales_department** will come last. The names of employees who work in the same department should be sorted in ascending order.
 
 **Example**
 
@@ -64,7 +65,7 @@ and **sales_department**
 
 the output should be
 
-|  names            |
+| names             |
 | ----------------- |
 | Bertha Neiman     |
 | Doyle Wiste       |
@@ -80,14 +81,14 @@ the output should be
 | Jayne Kravitz     |
 | Joya Buss         |
 
-
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

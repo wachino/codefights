@@ -8,14 +8,15 @@ title: Table Security
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
 
 As the head of a company you decided that it's time to introduce access control and to restrict access to **employees** table for all the employees. The table has the following structure:
 
-* **id**: unique employee id;
-* **name**: the name of the employee;
-* **date_joined**: the date the employee was hired;
-* **salary**: the salary of the employee;
+- **id**: unique employee id;
+- **name**: the name of the employee;
+- **date_joined**: the date the employee was hired;
+- **salary**: the salary of the employee;
 
 As a first step towards improving security you decided to create a view which would be used by the employees instead of direct access to the table.
 
@@ -24,7 +25,6 @@ Create a view which will select all the columns from the **employees** table but
 **Example**
 
 For the following table **employees**
-
 
 | id  | name              | date_joined | salary |
 | --- | ----------------- | ----------- | ------ |
@@ -44,13 +44,14 @@ the output should be
 | 4   | Josphine Clickner | 2007        | -      |
 | 5   | Linwood Mcquiston | 2011        | -      |
 
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

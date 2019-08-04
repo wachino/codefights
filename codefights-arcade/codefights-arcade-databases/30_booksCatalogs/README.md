@@ -8,27 +8,29 @@ title: Books Catalogs
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
+
 You have your very own library at home, and it's getting bigger and bigger with each passing month. You've decided to create a database in which to store information about your books, in the hope that it will help you remember which books you have in your library.
 
 Information about the books in your library is stored in the table **catalogs**, which contains the following columns:
 
-* **doc_id**: The unique ID of the catalog;
-* **xml_doc**: The catalog as an XML file in the following format:
-<code>
-<br>
-&#60;catalog&#62;<br>
+- **doc_id**: The unique ID of the catalog;
+- **xml_doc**: The catalog as an XML file in the following format:
+  <code>
+  <br>
+  &#60;catalog&#62;<br>
   &nbsp;&#60;book id="..."&#62;<br>
-    &nbsp;&nbsp;&#60;author&#62;...&#60;/author&&nbsp;&nbsp;#62;<br>
-    &#60;title&#62;...&#60;/title&#62;<br>
+  &nbsp;&nbsp;&#60;author&#62;...&#60;/author&&nbsp;&nbsp;#62;<br>
+  &#60;title&#62;...&#60;/title&#62;<br>
   &nbsp;&#60;/book&#62;<br>
   &nbsp;&#60;book id="..."&#62;<br>
-    &nbsp;&nbsp;&#60;author&#62;...&#60;/author&#62;<br>
-    &nbsp;&nbsp;&#60;title&#62;...&#60;/title&#62;<br>
+  &nbsp;&nbsp;&#60;author&#62;...&#60;/author&#62;<br>
+  &nbsp;&nbsp;&#60;title&#62;...&#60;/title&#62;<br>
   &nbsp;&#60;/book&#62;<br>
   &nbsp;...<br>
-&#60;/catalog&#62;.<br>
-</code>
+  &#60;/catalog&#62;.<br>
+  </code>
 
 Each catalog represents the work of one distinct <code>&#60;author&#62;</code> in your library. There is exactly one <code>&#60;catalog&#62;</code> element in each <code>xml_doc</code>, and the <code>id</code> for each book is unique.
 
@@ -46,19 +48,20 @@ For the following table **catalogs**
 
 the output should be
 
-| name  |
-| ----  |
-|Bernard Werber|
-|Boris Vian|
-|Chuck Palahniuk|
+| name            |
+| --------------- |
+| Bernard Werber  |
+| Boris Vian      |
+| Chuck Palahniuk |
 
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 

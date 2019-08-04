@@ -8,22 +8,22 @@ title: Empty Departments
 <div class="columnStmt" markdown="1">
 
 ## Description
-------
+
+---
 
 You've just started working for a large and successful company, and it's come as a shock to find that the records about the company's internal organization haven't been updated for ages. Some employees have changed their departments and some have resigned, and consequently, there are some departments that have no employees in them. You want to identify these departments.
 
 Information about employees and departments is stored in two tables, **employees** and **departments**, which have the following structure:
 
-* **employees**:
-  * id: the unique employee ID;
-  * full_name: the employee's full name;
-  * department: a foreign key referencing departments.id;
-* **departments**:
-  * id: the unique department ID;
-  * dep_name: the department name.
+- **employees**:
+  - id: the unique employee ID;
+  - full_name: the employee's full name;
+  - department: a foreign key referencing departments.id;
+- **departments**:
+  - id: the unique department ID;
+  - dep_name: the department name.
 
 Given the tables **employees** and **departments**, build a table with only one column, <code>dep_name</code>, which contains all the departments in which there are no employees, sorted by <code>id</code>.
-
 
 **Example**
 
@@ -51,13 +51,14 @@ the output should be
 | ----------- |
 | Warehousing |
 
-* **[execution time limit] 10 seconds (mysql)**
+- **[execution time limit] 10 seconds (mysql)**
 
 </div>
 <div class="columnSol" markdown="1">
 
 ## Solution
-------
+
+---
 
 {% highlight sql linenos=table %}
 
