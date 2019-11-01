@@ -137,3 +137,10 @@ title: Arcade Databases
 1. [Order Analytics](69_orderAnalytics/README.html)
 1. [Customer Messages](70_customerMessages/README.html)
 1. [Order Prices](71_orderPrices/README.html)
+
+## Exotic Dishes
+
+{:start="72"}
+
+1. [Find Table](72_findTable/README.html)
+1. [Queries Execution](73_queriesExecution/README.html)
