@@ -144,3 +144,14 @@ title: Arcade Databases
 
 1. [Find Table](72_findTable/README.html)
 1. [Queries Execution](73_queriesExecution/README.html)
+
+## Between JOIN and SELECT
+
+{:start="74"}
+
+1. [Film Library](74_filmLibrary/README.html)
+1. [Bugs In Component](75_bugsInComponent/README.html)
+1. [Free Seats](76_freeSeats/README.html)
+1. [Gift Packaging](77_giftPackaging/README.html)
+1. [Strings Statistics](78_stringsStatistics/README.html)
+1. [Unlucky Employees](79_unluckyEmployees/README.html)
