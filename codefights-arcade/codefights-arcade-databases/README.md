@@ -155,3 +155,13 @@ title: Arcade Databases
 1. [Gift Packaging](77_giftPackaging/README.html)
 1. [Strings Statistics](78_stringsStatistics/README.html)
 1. [Unlucky Employees](79_unluckyEmployees/README.html)
+
+## A Table of Desserts
+
+{:start="80"}
+
+1. [Drivers Info](80_driversInfo/README.html)
+1. [Sort Book Chapters](81_sortBookChapters/README.html)
+1. [Type Inheritance](82_typeInheritance/README.html)
+1. [Battleship Game Results](83_battleshipGameResults/README.html)
+1. [Tictactoe Tournament](84_tictactoeTournament/README.html)
