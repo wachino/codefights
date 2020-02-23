@@ -40,3 +40,18 @@ title: Arcade The Core
 1. [Swap Adjacent Bits](22_swapAdjacentBits/README.html)
 1. [Different Rightmost Bit](23_differentRightmostBit/README.html)
 1. [Equal Pair Of Bits](24_equalPairOfBits/README.html)
+
+## Loop Tunnel
+
+{:start="25"}
+
+1. [Least Factorial](25_leastFactorial/README.html)
+1. [Count Sum Of Two Representations 2](26_countSumOfTwoRepresentations2/README.html)
+1. [Magical Well](27_magicalWell/README.html)
+1. [Line Up](28_lineUp/README.html)
+1. [Addition Without Carrying](29_additionWithoutCarrying/README.html)
+1. [Apple Boxes](30_appleBoxes/README.html)
+1. [Increase Number Roundness](31_increaseNumberRoundness/README.html)
+1. [Rounders](32_rounders/README.html)
+1. [Candles](33_candles/README.html)
+1. [Count Black Cells](34_countBlackCells/README.html)
