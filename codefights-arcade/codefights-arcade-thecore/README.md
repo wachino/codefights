@@ -55,3 +55,16 @@ title: Arcade The Core
 1. [Rounders](32_rounders/README.html)
 1. [Candles](33_candles/README.html)
 1. [Count Black Cells](34_countBlackCells/README.html)
+
+## List Forest Edge
+
+{:start="35"}
+
+1. [Create Array](35_createArray/README.html)
+1. [Array Replace](36_arrayReplace/README.html)
+1. [First Reverse Try](37_firstReverseTry/README.html)
+1. [Concatenate Arrays](38_concatenateArrays/README.html)
+1. [Remove Array Part](39_removeArrayPart/README.html)
+1. [Is Smooth](40_isSmooth/README.html)
+1. [Replace Middle](41_replaceMiddle/README.html)
+1. [Make Array Consecutive 2](42_makeArrayConsecutive2/README.html)
