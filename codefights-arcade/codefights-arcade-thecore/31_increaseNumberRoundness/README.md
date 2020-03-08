@@ -38,7 +38,7 @@ Given an integer <code>n</code>, check if it's possible to increase <code>n</cod
   A positive integer.
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>100 \leq n \leq 10<sup>9</sup></code>.
+  <code type='math/tex'>100 \leq n \leq 10^9</code>.
 
 - **[output] boolean**
   - <code>true</code> if it's possible to increase <code>n</code>'s roundness, <code>false</code> otherwise.

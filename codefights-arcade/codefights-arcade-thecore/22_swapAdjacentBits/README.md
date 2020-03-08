@@ -36,7 +36,7 @@ Note the preceding zero written in front of the initial number: since both numbe
 - **[input] integer n**
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>0 \leq n \le 2<sup>30</sup></code>.
+  <code type='math/tex'>0 \leq n \le 2^{30}</code>.
 
 - **[output] integer**
 

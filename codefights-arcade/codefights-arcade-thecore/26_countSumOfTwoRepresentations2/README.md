@@ -29,7 +29,7 @@ There are just two ways to write <code>6</code> as <code>A + B</code>, where <co
   A positive integer.
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>5 \leq n \leq 10<sup>9</sup></code>.
+  <code type='math/tex'>5 \leq n \leq 10^9</code>.
 
 - **[input] integer l**
 
@@ -43,8 +43,8 @@ There are just two ways to write <code>6</code> as <code>A + B</code>, where <co
   A positive integer.
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>1 \leq r \leq 10<sup>9</sup></code>,<br>
-  <code type='math/tex'>r-l \leq 10<sup>6</sup></code>.
+  <code type='math/tex'>1 \leq r \leq 10^9</code>,<br>
+  <code type='math/tex'>r-l \leq 10^6</code>.
 
 - **[output] integer**
 

@@ -43,14 +43,14 @@ Count the number of cells painted black.
   The number of rows.
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>1 \leq n \leq 10<sup>5</sup></code>.
+  <code type='math/tex'>1 \leq n \leq 10^5</code>.
 
 - **[input] integer m**
 
   The number of columns.
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>1 \leq m \leq 10<sup>5</sup></code>.
+  <code type='math/tex'>1 \leq m \leq 10^5</code>.
 
 - **[output] integer**
 

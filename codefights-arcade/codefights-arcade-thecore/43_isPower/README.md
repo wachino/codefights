@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Mirror Bits
+title: Is Power
 #permalink: index.html # in case of we remove the index.md file, this doc will be the index page
 ---
 
@@ -11,28 +11,29 @@ title: Mirror Bits
 
 ---
 
-Reverse the order of the bits in a given integer.
+Determine if the given number is a power of some non-negative integer.
 
 **Example**
 
-- For <code>a = 97</code>, the output should be
-  <code>mirrorBits(a) = 67</code>.
-
-  <code>97</code> equals to <code>1100001</code> in binary, which is <code>1000011</code> after mirroring, and that is <code>67</code> in base <code>10</code>.
-
-- For <code>a = 8</code>, the output should be
-  <code>mirrorBits(a) = 1</code>.
+- For <code>n = 125</code>, the output should be
+<code>isPower(n) = true</code>;
+- For <code>n = 72</code>, the output should be
+<code>isPower(n) = false</code>.
 
 **Input/Output**
 
 - **[execution time limit] 4 seconds (js)**
 
-- **[input] integer a**
+- **[input] integer n**
+
+   A positive integer.<br>
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>5 \leq a \leq 10^5</code>.
+   <code>1 ≤ n ≤ 400</code>.
 
-- **[output] integer**
+- **[output] boolean**
+
+   - <code>true</code> if <code>n</code> can be represented in the form <code>a<sup>b</sup></code> (<code>a</code> to the power of <code>b</code>) where <code>a</code> and <code>b</code> are some non-negative integers and <code>b ≥ 2</code>, false otherwise.
 
 **[JavaScript (ES6)] Syntax Tips**
 

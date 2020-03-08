@@ -68,3 +68,16 @@ title: Arcade The Core
 1. [Is Smooth](40_isSmooth/README.html)
 1. [Replace Middle](41_replaceMiddle/README.html)
 1. [Make Array Consecutive 2](42_makeArrayConsecutive2/README.html)
+
+## Labyrinth of Nested Loops
+
+{:start="43"}
+
+1. [Is Power](43_isPower/README.html)
+1. [Is Sum Of Consecutive 2](44_isSumOfConsecutive2/README.html)
+1. [Square Digits Sequence](45_squareDigitsSequence/README.html)
+1. [Pages Numbering With Ink](46_pagesNumberingWithInk/README.html)
+1. [Comfortable Numbers](47_comfortableNumbers/README.html)
+1. [Weak Numbers](48_weakNumbers/README.html)
+1. [Rectangle Rotation](49_rectangleRotation/README.html)
+1. [Crossword Formation](50_crosswordFormation/README.html)

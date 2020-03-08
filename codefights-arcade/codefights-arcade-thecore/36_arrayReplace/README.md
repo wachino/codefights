@@ -27,18 +27,18 @@ For <code>inputArray = [1, 2, 1]</code>, <code>elemToReplace = 1</code>, and <co
   A positive integer.
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>0 \leq inputArray.length \leq 10<sup>4</sup></code>,<br>
-  <code type='math/tex'>0 \leq inputArray[i] \leq 10<sup>9</sup></code>.
+  <code type='math/tex'>0 \leq inputArray.length \leq 10^4</code>,<br>
+  <code type='math/tex'>0 \leq inputArray[i] \leq 10^9</code>.
 
 - **[input] integer elemToReplace**
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>0 \leq elemToReplace \leq 10<sup>9</sup></code>.
+  <code type='math/tex'>0 \leq elemToReplace \leq 10^9</code>.
 
 - **[input] integer substitutionElem**
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>0 \leq substitutionElem \leq 10<sup>9</sup></code>.
+  <code type='math/tex'>0 \leq substitutionElem \leq 10^9</code>.
 
 - **[output] array.integer**
 

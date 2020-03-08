@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Second-Rightmost Zero Bit
+title: Is Sum Of Consecutive 2
 #permalink: index.html # in case of we remove the index.md file, this doc will be the index page
 ---
 
@@ -11,19 +11,18 @@ title: Second-Rightmost Zero Bit
 
 ---
 
-_Implement the missing code, denoted by ellipses. You may not modify the pre-existing code._
-
-Presented with the integer <code>n</code>, find the 0-based position of the second rightmost zero bit in its binary representation (it is guaranteed that such a bit exists), counting from right to left.
-
-Return the value of <code>2<sup>position_of_the_found_bit</sup></code>.
+Find the number of ways to express <code>n</code> as sum of some (at least two) consecutive positive integers.
 
 **Example**
 
-For <code>n = 37</code>, the output should be
-<code>secondRightmostZeroBit(n) = 8</code>.
+- For <code>n = 9</code>, the output should be
+<code>isSumOfConsecutive2(n) = 2</code>.
 
-<code>37<sub>10</sub> = 10<b>0</b>101<sub>2</sub></code>. The second rightmost zero bit is at position <code>3</code> (0-based) from the right in the binary representation of <code>n</code>.
-Thus, the answer is <code>2<sup>3</sup> = 8</code>.
+  There are two ways to represent <code>n = 9: 2 + 3 + 4 = 9</code> and <code>4 + 5 = 9</code>.
+- For <code>n = 8</code>, the output should be
+<code>isSumOfConsecutive2(n) = 0</code>.
+
+  There are no ways to represent <code>n = 8</code>.
 
 **Input/Output**
 
@@ -31,8 +30,10 @@ Thus, the answer is <code>2<sup>3</sup> = 8</code>.
 
 - **[input] integer n**
 
+   A positive integer.<br>
+
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>4 \leq n \leq 2^{30}</code>.
+   <code>1 ≤ n ≤ 10<sup>4</sup></code>.
 
 - **[output] integer**
 

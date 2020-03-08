@@ -45,14 +45,14 @@ The boy performs the following operations from right to left:
   A non-negative integer.<br>
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>0 \leq param1 \le 10<sup>5</sup></code>.
+  <code type='math/tex'>0 \leq param1 \le 10^5</code>.
 
 - **[input] integer param1**
 
   A non-negative integer.<br>
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>0 \leq param2 \le 6 · 10<sup>4</sup></code>.
+  <code type='math/tex'>0 \leq param2 \le 6 · 10^4</code>.
 
 - **[output] integer**
   - The result that the little boy will get by using column addition without carrying.

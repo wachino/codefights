@@ -44,7 +44,7 @@ So the answer is <code>2<sup>4</sup> = 16</code>.
 - **[input] integer n**
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>0 \leq m \leq 2<sup>30</sup></code>.<br>
+  <code type='math/tex'>0 \leq m \leq 2^{30}</code>.<br>
   <code type='math/tex'>n ≠ m</code>.
 
 - **[output] integer**

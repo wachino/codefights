@@ -32,12 +32,12 @@ So the answer is <code>2<sup>1</sup> = 2</code>.
 - **[input] integer n**
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>0 \leq n \leq 2<sup>30</sup></code>.
+  <code type='math/tex'>0 \leq n \leq 2^{30}</code>.
 
 - **[input] integer m**
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>0 \leq m \leq 2<sup>30</sup></code>.
+  <code type='math/tex'>0 \leq m \leq 2^{30}</code>.
 
 - **[output] integer**
 

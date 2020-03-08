@@ -37,7 +37,7 @@ We want to turn the given integer into a number that has only one non-zero digit
   A positive integer.
 
   _Guaranteed constraints:_<br>
-  <code type='math/tex'>1 \leq value \leq 10<sup>8</sup></code>.
+  <code type='math/tex'>1 \leq value \leq 10^8</code>.
 
 - **[output] integer**
 
