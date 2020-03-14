@@ -81,3 +81,16 @@ title: Arcade The Core
 1. [Weak Numbers](48_weakNumbers/README.html)
 1. [Rectangle Rotation](49_rectangleRotation/README.html)
 1. [Crossword Formation](50_crosswordFormation/README.html)
+
+## Book Market
+
+{:start="51"}
+
+1. [Enclose In Brackets](51_encloseInBrackets/README.html)
+1. [Proper Noun Correction](52_properNounCorrection/README.html)
+1. [Is Tandem Repeat?](53_isTandemRepeat/README.html)
+1. [Is Case-Insensitive Palindrome?](54_isCaseInsensitivePalindrome/README.html)
+1. [Find Email Domain](55_findEmailDomain/README.html)
+1. [HTML End Tag By Start Tag](56_htmlEndTagByStartTag/README.html)
+1. [Is MAC48 Address](57_isMAC48Address/README.html)
+1. [Is Unstable Pair?](58_isUnstablePair/README.html)
