@@ -94,3 +94,16 @@ title: Arcade The Core
 1. [HTML End Tag By Start Tag](56_htmlEndTagByStartTag/README.html)
 1. [Is MAC48 Address](57_isMAC48Address/README.html)
 1. [Is Unstable Pair?](58_isUnstablePair/README.html)
+
+## Mirror Lake
+
+{:start="59"}
+
+1. [Strings Construction](59_stringsConstruction/README.html)
+1. [Is Substitution Cipher?](60_isSubstitutionCipher/README.html)
+1. [Create Anagram](61_createAnagram/README.html)
+1. [Construct Square](62_constructSquare/README.html)
+1. [Numbers Grouping](63_numbersGrouping/README.html)
+1. [Different Squares](64_differentSquares/README.html)
+1. [Most Frequent Digit Sum](65_mostFrequentDigitSum/README.html)
+1. [Number Of Clans](66_numberOfClans/README.html)
