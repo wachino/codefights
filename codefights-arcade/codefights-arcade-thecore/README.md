@@ -107,3 +107,21 @@ title: Arcade The Core
 1. [Different Squares](64_differentSquares/README.html)
 1. [Most Frequent Digit Sum](65_mostFrequentDigitSum/README.html)
 1. [Number Of Clans](66_numberOfClans/README.html)
+
+## Well of Integration
+
+{:start="67"}
+
+1. [House Numbers Sum](67_houseNumbersSum/README.html)
+1. [All Longest Strings](68_allLongestStrings/README.html)
+1. [House Of Cats](69_houseOfCats/README.html)
+1. [Alphabet Subsequence](70_alphabetSubsequence/README.html)
+1. [Minimal Number Of Coins](71_minimalNumberOfCoins/README.html)
+1. [Add Border](72_addBorder/README.html)
+1. [Switch Lights](73_switchLights/README.html)
+1. [Timed Reading](74_timedReading/README.html)
+1. [Elections Winners](75_electionsWinners/README.html)
+1. [Integer To String Of Fixed Width](76_integerToStringOfFixedWidth/README.html)
+1. [Are Similar](77_areSimilar/README.html)
+1. [Ada Number](78_adaNumber/README.html)
+1. [Three Split](79_threeSplit/README.html)

@@ -30,6 +30,13 @@
                "</code>";
     });
 
+    $("code[type='preformat']").replaceWith(
+      function(){
+        var tex = $(this).text();
+        return "<code style=\"white-space: pre-wrap;\">" + 
+               tex +
+               "</code>";
+    });
 </script>
 
 <!-- 
