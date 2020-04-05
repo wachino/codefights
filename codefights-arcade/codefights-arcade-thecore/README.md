@@ -125,3 +125,16 @@ title: Arcade The Core
 1. [Are Similar](77_areSimilar/README.html)
 1. [Ada Number](78_adaNumber/README.html)
 1. [Three Split](79_threeSplit/README.html)
+
+## Lab of Transformations
+
+{:start="80"}
+
+1. [Character Parity](80_characterParity/README.html)
+1. [Reflect String](81_reflectString/README.html)
+1. [New Numeral System](82_newNumeralSystem/README.html)
+1. [Cipher 26](83_cipher26/README.html)
+1. [Stolen Lunch](84_stolenLunch/README.html)
+1. [Higher Version](85_higherVersion/README.html)
+1. [Decipher](86_decipher/README.html)
+1. [Alphanumeric Less](87_alphanumericLess/README.html)
