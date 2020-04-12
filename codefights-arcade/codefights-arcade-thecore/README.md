@@ -138,3 +138,18 @@ title: Arcade The Core
 1. [Higher Version](85_higherVersion/README.html)
 1. [Decipher](86_decipher/README.html)
 1. [Alphanumeric Less](87_alphanumericLess/README.html)
+
+## Spring of Integration
+
+{:start="88"}
+
+1. [Array Conversion](88_arrayConversion/README.html)
+1. [Array Previous Less](89_arrayPreviousLess/README.html)
+1. [Pair Of Shoes](90_pairOfShoes/README.html)
+1. [Combs](91_combs/README.html)
+1. [Strings Crossover](92_stringsCrossover/README.html)
+1. [Cyclic String](93_cyclicString/README.html)
+1. [Beautiful Text](94_beautifulText/README.html)
+1. [Runners Meetings](95_runnersMeetings/README.html)
+1. [Christmas Tree](96_christmasTree/README.html)
+1. [File Naming](97_fileNaming/README.html)
