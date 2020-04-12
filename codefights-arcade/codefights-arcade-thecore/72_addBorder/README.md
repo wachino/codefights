@@ -11,14 +11,14 @@ title: Add Border
 
 ---
 
-Given a rectangular matrix of characters, add a border of asterisks(<code>*</code>) to it.
+Given a rectangular matrix of characters, add a border of asterisks(<code>\*</code>) to it.
 
 **Example**
 
 For<br>
 <code>
 picture = ["abc",<br>
-           "ded"]
+"ded"]
 </code>
 
 the output should be <br>
@@ -39,8 +39,7 @@ addBorder(picture) = ["*****",<br>
   A non-empty array of non-empty equal-length strings.<br>
 
   _Guaranteed constraints:_<br>
-  <code>1 ≤ picture.length ≤ 100</code>,
-  <code>1 ≤ picture[i].length ≤ 100</code>.
+  <code>1 ≤ picture.length ≤ 100</code>,<br> <code>1 ≤ picture[i].length ≤ 100</code>.
 
 - **[output] array.string**
   - The same matrix of characters, framed with a border of asterisks of width <code>1</code>.

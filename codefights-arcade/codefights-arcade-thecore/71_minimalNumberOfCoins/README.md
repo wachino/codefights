@@ -31,8 +31,7 @@ You have to use <code>10</code> twice, and <code>2</code> four times.
   The coin values available in Bananaland.<br>
 
   _Guaranteed constraints:_<br>
-  <code>1 ≤ coins.length ≤ 5</code>,
-  <code>1 ≤ coins[i] ≤ 120</code>.
+  <code>1 ≤ coins.length ≤ 5</code>,<br> <code>1 ≤ coins[i] ≤ 120</code>.
 
 - **[input] integer price**
 

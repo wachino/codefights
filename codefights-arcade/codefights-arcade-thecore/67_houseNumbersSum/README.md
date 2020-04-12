@@ -31,8 +31,7 @@ The answer was obtained as <code>5 + 1 + 2 + 3 = 11</code>.
 - **[input] array.integer inputArray**
 
   _Guaranteed constraints:_<br>
-  <code>5 ≤ inputArray.length ≤ 10</code>,
-  <code>0 ≤ inputArray[i] ≤ 10</code>.
+  <code>5 ≤ inputArray.length ≤ 10</code>,<br> <code>0 ≤ inputArray[i] ≤ 10</code>.
 
 - **[output] integer**
 

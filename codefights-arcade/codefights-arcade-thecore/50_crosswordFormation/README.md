@@ -38,8 +38,7 @@ The six crosswords can be formed as shown below:
   An array of distinct strings, the words you need to use in your crossword.<br>
 
   _Guaranteed constraints:_<br>
-   <code>words.length = 4</code>,
-   <code>3 ≤ words[i].length < 15</code>.
+  <code>words.length = 4</code>,<br> <code>3 ≤ words[i].length < 15</code>.
 
 - **[output] integer**
   - The number of ways to make a correct crossword of the desired formation.

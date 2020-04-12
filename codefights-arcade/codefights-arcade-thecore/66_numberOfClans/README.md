@@ -29,8 +29,7 @@ The numbers <code>1</code> and <code>5</code> are friends and form a clan, <code
   A non-empty array of positive integers.<br>
 
   _Guaranteed constraints:_<br>
-  <code>2 ≤ divisors.length < 10</code>,
-  <code>1 ≤ divisors[i] ≤ 10</code>.
+  <code>2 ≤ divisors.length < 10</code>,<br> <code>1 ≤ divisors[i] ≤ 10</code>.
 
 - **[input] integer k**
 

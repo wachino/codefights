@@ -22,10 +22,10 @@ For <code>a = [0, -1, 0, -1, 0, -1]</code>, the output should be
 
 Here are all possible ways:
 
-- <code>[0, -1] [0, -1] [0, -1]</code>
-- <code>[0, -1] [0, -1, 0] [-1]</code>
-- <code>[0, -1, 0] [-1, 0] [-1]</code>
-- <code>[0, -1, 0] [-1] [0, -1]</code>
+- <code>[0, -1][0, -1] [0, -1]</code>
+- <code>[0, -1][0, -1, 0] [-1]</code>
+- <code>[0, -1, 0][-1, 0] [-1]</code>
+- <code>[0, -1, 0][-1] [0, -1]</code>
 
 **Input/Output**
 
@@ -34,8 +34,7 @@ Here are all possible ways:
 - **[input] array.integer a**
 
   _Guaranteed constraints:_<br>
-  <code>5 ≤ a.length ≤ 10<sup>4</sup></code>,
-  <code>-10<sup>8</sup> ≤ a[i] ≤ 10<sup>8</sup></code>.
+  <code>5 ≤ a.length ≤ 10<sup>4</sup></code>,<br> <code>-10<sup>8</sup> ≤ a[i] ≤ 10<sup>8</sup></code>.
 
 - **[output] integer**
   - It's guaranteed that for the given test cases the answer always fits signed <code>32</code>-bit integer type.

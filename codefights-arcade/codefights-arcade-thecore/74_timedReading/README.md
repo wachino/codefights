@@ -19,8 +19,7 @@ Formally, a word is a substring consisting of English letters, such that charact
 **Example**
 
 For <code>maxLength = 4</code> and
-<code>text = "The Fox asked the stork, 'How is the soup?'"</code>,
-the output should be
+<code>text = "The Fox asked the stork, 'How is the soup?'"</code>,<br>the output should be
 <code>timedReading(maxLength, text) = 7</code>.
 
 The boy has read the following words: <code>"The", "Fox", "the", "How", "is", "the", "soup"</code>.

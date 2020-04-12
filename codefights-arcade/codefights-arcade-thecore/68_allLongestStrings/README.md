@@ -27,8 +27,7 @@ For <code>inputArray = ["aba", "aa", "ad", "vcd", "aba"]</code>, the output shou
   A non-empty array.<br>
 
   _Guaranteed constraints:_<br>
-  <code>5 ≤ inputArray.length ≤ 10</code>,
-  <code>0 ≤ inputArray[i] ≤ 10</code>.
+  <code>5 ≤ inputArray.length ≤ 10</code>,<br> <code>0 ≤ inputArray[i] ≤ 10</code>.
 
 - **[output] array.string**
   - Array of the longest strings, stored in the same order as in the <code>inputArray</code>.

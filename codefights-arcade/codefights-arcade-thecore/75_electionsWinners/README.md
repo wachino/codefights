@@ -38,8 +38,7 @@ Thus, only <code>2</code> candidates can win (the second and the third), which i
   A non-empty array of non-negative integers. Its <code>i<sup>th</sup></code> element denotes the number of votes cast for the <code>i<sup>th</sup></code> candidate.<br>
 
   _Guaranteed constraints:_<br>
-  <code>4 ≤ votes.length ≤ 10<sup>5</sup></code>,
-  <code>0 ≤ votes[i] ≤ 10<sup>4</sup></code>.
+  <code>4 ≤ votes.length ≤ 10<sup>5</sup></code>,<br> <code>0 ≤ votes[i] ≤ 10<sup>4</sup></code>.
 
 - **[input] integer k**
 
