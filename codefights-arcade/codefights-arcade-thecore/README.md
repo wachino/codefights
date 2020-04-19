@@ -9,7 +9,6 @@ title: Arcade The Core
 1. [Add Two Digits](1_addTwoDigits/README.html)
 1. [Largest Number](2_largestNumber/README.html)
 1. [Candies](3_candies/README.html)
-1. [Seats In Theater](4_seatsInTheater/README.html)
 1. [Max Multiple](5_maxMultiple/README.html)
 1. [Circle Of Numbers](6_circleOfNumbers/README.html)
 1. [Late Ride](7_lateRide/README.html)
@@ -153,3 +152,16 @@ title: Arcade The Core
 1. [Runners Meetings](95_runnersMeetings/README.html)
 1. [Christmas Tree](96_christmasTree/README.html)
 1. [File Naming](97_fileNaming/README.html)
+
+## List Backwoods
+
+{:start="98"}
+
+1. [Extract Matrix Column](98_extractMatrixColumn/README.html)
+1. [Are Isomorphic?](99_areIsomorphic/README.html)
+1. [Reverse On Diagonals](100_reverseOnDiagonals/README.html)
+1. [Swap Diagonals](101_swapDiagonals/README.html)
+1. [Crossing Sum](102_crossingSum/README.html)
+1. [Draw Rectangle](103_drawRectangle/README.html)
+1. [Volleyball Positions](104_volleyballPositions/README.html)
+1. [Star Rotation](105_starRotation/README.html)
