@@ -165,3 +165,16 @@ title: Arcade The Core
 1. [Draw Rectangle](103_drawRectangle/README.html)
 1. [Volleyball Positions](104_volleyballPositions/README.html)
 1. [Star Rotation](105_starRotation/README.html)
+
+## Waterfall of Integration
+
+{:start="106"}
+
+1. [Sudoku](106_sudoku/README.html)
+1. [Minesweeper](107_minesweeper/README.html)
+1. [Box Blur](108_boxBlur/README.html)
+1. [Contours Shifting](109_contoursShifting/README.html)
+1. [Polygon Perimeter](110_polygonPerimeter/README.html)
+1. [Gravitation](111_gravitation/README.html)
+1. [Is Information Consistent](112_isInformationConsistent/README.html)
+1. [Correct Nonogram](113_correctNonogram/README.html)
