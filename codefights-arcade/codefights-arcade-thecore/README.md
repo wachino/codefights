@@ -178,3 +178,16 @@ title: Arcade The Core
 1. [Gravitation](111_gravitation/README.html)
 1. [Is Information Consistent](112_isInformationConsistent/README.html)
 1. [Correct Nonogram](113_correctNonogram/README.html)
+
+## Sorting Outpost
+
+{:start="114"}
+
+1. [Shuffled Array](114_shuffledArray/README.html)
+1. [Sort By Height](115_sortByHeight/README.html)
+1. [Sort By Length](116_sortByLength/README.html)
+1. [Boxes Packing](117_boxesPacking/README.html)
+1. [Maximum Sum](118_maximumSum/README.html)
+1. [Rows Rearranging](119_rowsRearranging/README.html)
+1. [Digit Difference Sort](120_digitDifferenceSort/README.html)
+1. [Unique Digit Products](121_uniqueDigitProducts/README.html)
