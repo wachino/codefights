@@ -191,3 +191,16 @@ title: Arcade The Core
 1. [Rows Rearranging](119_rowsRearranging/README.html)
 1. [Digit Difference Sort](120_digitDifferenceSort/README.html)
 1. [Unique Digit Products](121_uniqueDigitProducts/README.html)
+
+## Chess Tavern
+
+{:start="122"}
+
+1. [Bishop And Pawn](122_bishopAndPawn/README.html)
+1. [Chess Knight Moves](123_chessKnightMoves/README.html)
+1. [Bishop Diagonal](124_bishopDiagonal/README.html)
+1. [Whose Turn](125_whoseTurn/README.html)
+1. [Chess Bishop Dream](126_chessBishopDream/README.html)
+1. [Chess Triangle](127_chessTriangle/README.html)
+1. [Amazon Checkmate](128_amazonCheckmate/README.html)
+1. [Pawn Race](129_pawnRace/README.html)
