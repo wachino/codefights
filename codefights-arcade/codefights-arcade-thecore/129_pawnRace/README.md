@@ -11,7 +11,7 @@ title: Pawn Race
 
 ---
 
-_Pawn_ race is a game for two people, played on an ordinary <code>8 × 8</code> chessboard. The first player has a white pawn, the second one - a black pawn. Initially the pawns are placed somewhere on the board so that the <code>1<sup>st</sup></code> and the <code>8</sup>th</sup></code> rows are not occupied. Players take turns to make a move.
+_Pawn_ race is a game for two people, played on an ordinary <code>8 × 8</code> chessboard. The first player has a white pawn, the second one - a black pawn. Initially the pawns are placed somewhere on the board so that the <code>1<sup>st</sup></code> and the <code>8<sup>th</sup></code> rows are not occupied. Players take turns to make a move.
 
 White pawn moves upwards, black one moves downwards. The following moves are allowed:
 

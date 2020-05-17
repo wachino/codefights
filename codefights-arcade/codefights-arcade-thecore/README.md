@@ -204,3 +204,16 @@ title: Arcade The Core
 1. [Chess Triangle](127_chessTriangle/README.html)
 1. [Amazon Checkmate](128_amazonCheckmate/README.html)
 1. [Pawn Race](129_pawnRace/README.html)
+
+## Time River
+
+{:start="130"}
+
+1. [Valid Time](130_validTime/README.html)
+1. [Video Part](131_videoPart/README.html)
+1. [Day Of Week](132_dayOfWeek/README.html)
+1. [Curious Clock](133_curiousClock/README.html)
+1. [New Year Celebrations](134_newYearCelebrations/README.html)
+1. [Regular Months](135_regularMonths/README.html)
+1. [Missed Classes](136_missedClasses/README.html)
+1. [Holiday](137_holiday/README.html)
